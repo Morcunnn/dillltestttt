@@ -1,0 +1,12 @@
+# TEDİL - Alıcı Dil + İfade Edici Uygulaması için Gerekli Kütüphaneler
+# Python 3.8+ gereklidir
+
+# Executable oluşturma için
+pyinstaller>=5.0
+auto-py-to-exe>=2.0
+
+# Geliştirme araçları
+setuptools>=60.0
+wheel>=0.37.0
+
+# Not: tkinter, json, datetime, typing Python ile birlikte gelir
