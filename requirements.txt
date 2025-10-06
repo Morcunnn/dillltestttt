@@ -1,0 +1,16 @@
+# TEDİL - Alıcı Dil + İfade Edici Uygulaması için Gerekli Kütüphaneler
+# Python 3.8+ gereklidir
+
+# GUI için gerekli kütüphaneler (tkinter genellikle Python ile birlikte gelir)
+# Ancak bazı sistemlerde ayrıca yüklenmesi gerekebilir
+
+# JSON işlemleri için (Python standart kütüphanesi)
+# datetime için (Python standart kütüphanesi)
+# typing için (Python standart kütüphanesi)
+
+# Executable oluşturmak için
+pyinstaller>=5.0.0
+
+# Geliştirme ve test için (opsiyonel)
+pytest>=7.0.0
+black>=22.0.0

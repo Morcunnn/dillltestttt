@@ -1,0 +1,4 @@
+TEDİL Icon
+==========
+Bu dosya icon olarak kullanılabilir.
+Gerçek bir icon dosyası için icon.png veya icon.ico oluşturun.
