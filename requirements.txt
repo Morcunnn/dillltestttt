@@ -1,0 +1,2 @@
+# Runtime dependencies: none (uses Python stdlib + tkinter)
+# Build-time: pyinstaller (installed by build_windows.bat)
