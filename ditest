@@ -965,8 +965,18 @@ class App(tk.Tk):
             messagebox.showinfo("Yüklendi", "Oturum yüklendi.")
         except Exception as e: messagebox.showerror("Hata", f"Yüklenemedi:\n{e}")
 
+# ---- Ana Fonksiyon ----
+def main():
+    """Ana uygulama fonksiyonu - executable için gerekli"""
+    try:
+        app = App()
+        app.mainloop()
+    except Exception as e:
+        print(f"Uygulama başlatılırken hata oluştu: {e}")
+        input("Çıkmak için Enter'a basın...")
+
 # ---- Çalıştır ----  
 if __name__ == "__main__":
-    App().mainloop()
+    main()
 
     

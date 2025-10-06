@@ -1,0 +1,43 @@
+# TEDİL Uygulaması Kurulum Talimatları
+
+## Hızlı Kurulum
+
+### Windows:
+1. `quick_install.bat` dosyasını çift tıklayın
+2. Veya `install.bat` dosyasını çalıştırın
+3. `dist/TEDIL.exe` dosyasını çalıştırın
+
+### Linux/macOS:
+1. Terminal açın ve şu komutu çalıştırın:
+   ```bash
+   chmod +x install.sh
+   ./install.sh
+   ```
+2. `dist/TEDIL` dosyasını çalıştırın
+
+## Manuel Kurulum
+
+1. Python 3.8+ yüklü olduğundan emin olun
+2. Gerekli paketleri yükleyin:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Uygulamayı çalıştırın:
+   ```bash
+   python ditest
+   ```
+
+## Executable Oluşturma
+
+Kendi executable'ınızı oluşturmak için:
+```bash
+python build_exe.py
+```
+
+## Destek
+
+Sorularınız için: info@tedil.com
+Dokümantasyon: README.md dosyasına bakın
+
+---
+TEDİL v1.0.0 - 20251006_133641
