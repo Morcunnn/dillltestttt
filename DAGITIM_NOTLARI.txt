@@ -1,0 +1,151 @@
+================================================================================
+TEDİL UYGULAMASI - DAĞITIM NOTLARI
+================================================================================
+
+Bu dosya, uygulamayı EXE haline getirdikten sonra başkalarıyla nasıl
+paylaşacağınızı açıklar.
+
+================================================================================
+1. EXE OLUŞTURMA (İlk Adım)
+================================================================================
+
+Option A - Otomatik (Önerilen):
+   → build.bat dosyasına çift tıklayın
+   → Bekleyin, dist klasörü otomatik açılacak
+
+Option B - Manuel:
+   → Komut satırını açın
+   → python setup.py komutunu çalıştırın
+
+Sonuç: dist/TEDiL.exe dosyası oluşacak
+
+================================================================================
+2. PAYLAŞMA
+================================================================================
+
+Sadece dist/TEDiL.exe dosyasını paylaşmanız yeterlidir!
+
+Örnek paylaşma yöntemleri:
+   • Email eki olarak gönderin
+   • Google Drive / OneDrive / Dropbox'a yükleyin
+   • USB bellek ile aktarın
+   • WeTransfer ile gönderin
+
+ÖNEMLİ:
+   ✓ Sadece TEDiL.exe dosyasını gönderin
+   ✓ Python kurulumu GEREKMEZ alıcı tarafta
+   ✓ Herhangi bir kütüphane kurulumu GEREKMEZ
+   ✓ Direkt çalışır
+
+================================================================================
+3. ALICI TARAFTA YAPILACAKLAR
+================================================================================
+
+Alıcının yapması gereken:
+   1. TEDiL.exe dosyasını bilgisayarına kopyalasın
+   2. Dosyaya çift tıklasın
+   3. İşte bu kadar!
+
+İlk çalıştırmada Windows uyarısı çıkabilir:
+   → "Bilinmeyen yayımcı" uyarısı normaldir
+   → "Daha fazla bilgi" → "Yine de çalıştır" seçin
+   → Veya antivirüs ayarlarından izin verin
+
+================================================================================
+4. SIK KARŞILAŞILAN SORUNLAR
+================================================================================
+
+SORUN: "Windows bu uygulamayı engelliyor"
+ÇÖZÜM: "Daha fazla bilgi" → "Yine de çalıştır"
+
+SORUN: Antivirüs engelliyor
+ÇÖZÜM: Dosyayı güvenli listesine ekleyin veya geçici olarak devre dışı bırakın
+
+SORUN: EXE açılıyor ama hemen kapanıyor
+ÇÖZÜM: 
+   - Komut satırından çalıştırıp hata mesajını görün
+   - Yönetici olarak çalıştırmayı deneyin
+
+================================================================================
+5. DOSYA BOYUTU
+================================================================================
+
+TEDiL.exe dosyası ~15-40 MB olabilir. Bu normaldir çünkü:
+   • Python yorumlayıcısı dahildir
+   • Tkinter kütüphanesi dahildir
+   • Tüm gerekli modüller dahildir
+
+Böylece kullanıcının hiçbir şey kurmasına gerek kalmaz!
+
+================================================================================
+6. GÜVENLİK NOTLARI
+================================================================================
+
+EXE dosyasını paylaşırken:
+   ✓ Güvenilir kanallardan gönderin
+   ✓ Dosyanın virüssüz olduğunu belirtin
+   ✓ VirusTotal.com'da taratıp sonucu paylaşabilirsiniz
+   ✓ İmzalı sertifika almayı düşünebilirsiniz (ücretli)
+
+================================================================================
+7. VERSİYON YÖNETİMİ
+================================================================================
+
+Uygulamayı güncellerseniz:
+   1. Kod değişikliklerini yapın (ditest dosyasını düzenleyin)
+   2. build.bat'ı tekrar çalıştırın
+   3. Yeni TEDiL.exe oluşacak
+   4. Yeni versiyonu paylaşın
+
+İpucu: Dosya adını versiyonla değiştirin:
+   TEDiL.exe → TEDiL_v1.0.exe
+   TEDiL.exe → TEDiL_v1.1.exe
+
+================================================================================
+8. İLERİ SEVİYE: KURULUM PAKETI OLUŞTURMA
+================================================================================
+
+Daha profesyonel görünüm için kurulum sihirbazı oluşturabilirsiniz:
+
+Inno Setup kullanarak:
+   1. Inno Setup indirin: https://jrsoftware.org/isinfo.php
+   2. Yeni script oluşturun
+   3. TEDiL.exe'yi ekleyin
+   4. Kurulum paketi derleyin
+   5. Artık "Setup.exe" oluştu - bunu paylaşın
+
+Bu sayede:
+   • Başlat menüsüne kısayol eklenir
+   • Masaüstüne ikon oluşturulur
+   • Daha profesyonel görünür
+
+================================================================================
+9. LİSANS VE DAĞITIM HAKLARI
+================================================================================
+
+Bu uygulamayı ticari veya kişisel kullanım için özgürce dağıtabilirsiniz.
+PyInstaller açık kaynak ve ücretsizdir.
+
+================================================================================
+10. ÖZET KONTROL LİSTESİ
+================================================================================
+
+Paylaşmadan önce:
+   [ ] build.bat çalıştırıldı
+   [ ] dist/TEDiL.exe oluştu
+   [ ] Kendi bilgisayarımda test ettim
+   [ ] Başka bir bilgisayarda test ettim (ideal)
+   [ ] Dosya boyutu makul (~15-40 MB)
+   [ ] Antivirüs taraması yapıldı
+
+Paylaşırken:
+   [ ] Sadece TEDiL.exe gönderiliyor
+   [ ] Alıcıya kullanım talimatları verildi
+   [ ] İlk çalıştırma uyarıları hakkında bilgi verildi
+
+================================================================================
+
+Başarılar! 🚀
+
+Herhangi bir sorun olursa README_KURULUM.md dosyasına bakın.
+================================================================================
